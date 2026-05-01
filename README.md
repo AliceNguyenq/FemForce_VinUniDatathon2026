@@ -349,7 +349,4 @@ Nếu có câu hỏi:
 - `EDA TASK_.docx` - Chi tiết task EDA
 - `luoc_do_csdl/luocdocsdl.mwb` - Database schema (MySQL Workbench)
 
----
 
-**Cập nhật lần cuối:** Tháng 5 năm 2026  
-**Trạng thái:** ✅ Ready for Datathon Submission
