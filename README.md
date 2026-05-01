@@ -56,6 +56,7 @@ vinuni_datathon2026/
 │
 ├── process_data/                  # Tổng hợp dữ liệu
 │   ├── processed_data.ipynb       # Notebook để merge dữ liệu theo thời gian chạy mô hình baseline ban đầu
+    ├── technical_docs.docx        # Giải thích cách process   
 │
 ├── union_datasets/                # Gộp các dataset
 │   └── Unioned_dataset.ipynb
@@ -69,6 +70,12 @@ vinuni_datathon2026/
 │   ├── product_return_analysis.ipynb
 │   ├── promotion_effectiveness.ipynb
 │   └── supplychain_inventory.ipynb
+
+├── dashboards/                    # Trực quan hóa dữ liệu 
+│   ├── customer_behavior.pbix     # Dashboard hành vi khách hàng
+│   ├── eda_return_analysis.pbix   # Dashboard phân tích trả hàng
+│   ├── inventory_supplychain.pbix # Dashboard tồn kho & chuỗi cung ứng
+│   └── promotion_effectiveness.pbix # Dashboard hiệu quả khuyến mãi
 │
 ├── baseline.ipynb                 # Mô hình baseline (seasonal avg + trend)
 ├── Phần 1 _ MCQ/                  # Bài tập Multiple Choice Questions
