@@ -44,26 +44,25 @@ vinuni_datathon2026/
 ├── edatongquan_preprocessing/     # Preprocessing theo domain
 │   ├── master/
 │   │   ├── customers.ipynb        # Làm sạch và xử lý dữ liệu customers
-│   │   ├── geography.ipynb
-│   │   └── products.ipynb
+│   │   ├── geography.ipynb        # Làm sạch và xử lý dữ liệu geography
+│   │   └── products.ipynb         # Làm sạch và xử lý dữ liệu products
 │   ├── operational/
-│   │   ├── inventory.ipynb
-│   │   └── web_traffic.ipynb
+│   │   ├── inventory.ipynb        # Làm sạch và xử lý dữ liệu inventory
+│   │   └── web_traffic.ipynb      # Làm sạch và xử lý dữ liệu web_traffic
 │   ├── analytical/
 │   │   └── sales.ipynb            # Phân tích doanh thu
 │   └── transaction/
-│       └── TRANSACTION.ipynb      # Xử lý dữ liệu giao dịch
+│       └── TRANSACTION.ipynb      # Làm sạch và xử lý dữ liệu trong lớp TRANSACTION
 │
 ├── process_data/                  # Tổng hợp dữ liệu
-│   ├── Master.ipynb               # Notebook chính để merge dữ liệu
-│   └── processed_data.ipynb
+│   ├── processed_data.ipynb       # Notebook để merge dữ liệu theo thời gian chạy mô hình baseline ban đầu
 │
 ├── union_datasets/                # Gộp các dataset
 │   └── Unioned_dataset.ipynb
 │
 ├── model/                         # Xây dựng và chạy mô hình
-│   ├── chạy_model.ipynb           # Notebook chính chạy các mô hình
-│   └── processed_data.csv
+│   ├── chạy_model.ipynb           # Notebook để Feature Engineering và chạy mô hình thử ban đầu
+│   └── processed_data.csv         # Dữ liệu dùng để chạy mô hình baseline
 │
 ├── insight_theo_lớp/              # Phân tích insights
 │   ├── customer_behavior.ipynb    # Phân tích hành vi khách hàng
